@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Alok Sharma</h1>
 <h3 align="center">Full stack developer from India</h3>
 
-- 🌱 I’m currently learning **Androind APP Development** with **Flutter**
+- 🌱 I’m currently learning **Android APP Development** with **Flutter**
 
 - 📫 How to reach me **thakuralok99@gmail.com**
 
