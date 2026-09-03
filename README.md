@@ -1,152 +1,106 @@
-<h1 align="center">Hi 👋, I'm Alok Sharma</h1>
-<h3 align="center">Senior Software Engineer | Full-Stack Developer | DevOps Enthusiast</h3>
+# Alok Sharma
 
-<p align="center">
-  <a href="mailto:thakuralok99@gmail.com">📧 thakuralok99@gmail.com</a> • 
-  <a href="https://github.com/At0kSharma">💻 GitHub</a> • 
-  📱 +91-8124513084
-</p>
+**Senior Software Engineer · GRC Platform Engineer** — Bengaluru, India
 
----
+### I turn regulation into software that ships — and then run it in production.
 
-### 👨‍💻 About Me
+Five years, three companies. I build multi-tenant compliance platforms: consent management under India's DPDP Act, AI-assisted policy generation, risk registers, audit trails. The part I'm actually good at is the translation — reading a statute or a control framework and coming back with a data model, a workflow and an audit trail that an assessor will accept.
 
-Senior Software Engineer with **4+ years of experience** building scalable web applications, GRC platforms, and mobile solutions. Currently leading technical development at **Purplecop Security Pvt. Ltd**, where I architect and develop enterprise-grade compliance and risk management systems.
-
-- 🔭 Currently working on **PurpleCop** - A comprehensive Governance, Risk, and Compliance (GRC) platform
-- 🚀 Specialized in full-stack development with **Laravel, React.js, Node.js, and Flutter**
-- ⚙️ DevOps experience with **Ubuntu Server, Docker, Nginx, Apache, and SSL Configuration**
-- 🎯 Passionate about building secure, scalable, and user-friendly applications
-- 📚 Continuous learner, always exploring new technologies and best practices
+**Open to senior full stack & platform roles.** &nbsp;·&nbsp; [at0k.com](https://at0k.com) &nbsp;·&nbsp; [thakuralok99@gmail.com](mailto:thakuralok99@gmail.com)
 
 ---
 
-### 💼 Professional Experience
+## Sign in and look around
 
-**Senior Software Developer** @ Purplecop Security Pvt. Ltd _(Apr 2025 - Present)_
+Two of these are live. Rather than ask you to email me for a walkthrough, here is the credential — one pair opens both systems. Seeded demo tenants; nothing real behind them.
 
-- Leading technical architecture and development of PurpleCop GRC platform
-- Managing development team and collaborating with security and DevOps teams
-- Implementing CI/CD workflows and infrastructure optimization
+```
+email     demouser@at0k.com
+password  demo@r00t
+```
 
-**Senior Web Developer** @ Froximo Technology Pvt. Ltd _(Feb 2023 - Mar 2025)_
+### [at0k Privacy](https://privacy.at0k.com) — multi-jurisdiction privacy compliance, DPDP live
 
-- Led development of policy management module with role-based access control
-- Built real-time notification and email system for compliance tracking
-- Managed production servers (Ubuntu, Nginx, Apache, SSL)
-- Developed mobile interfaces using Flutter
+Privacy operations platform built around India's DPDP Act, with field schemas drafted for GDPR, CCPA, PIPEDA, POPIA, PDPA, PDPL and DORA — a law-config engine activates the same modules per jurisdiction.
 
-**Junior Web Developer** @ Softechpark Pvt. Ltd _(Nov 2020 - Oct 2022)_
+Every consent record pins an immutable SHA-256 snapshot of the form that captured it, so the append-only audit trail can replay any agreement exactly as it was given: purposes, notice text and all. That is the whole point of the product — a consent you cannot reconstruct is a consent you cannot defend.
 
-- Developed client websites and web applications using React.js and WordPress
-- Built responsive UIs with HTML, CSS, and JavaScript
-- Collaborated with teams to deliver production-ready features
+Also covers data inventory and ROPA, DPIA, vendor and breach management, and data subject requests with evidence attachments. Ships an embeddable JavaScript consent SDK — bcrypt-hashed API keys, origin allow-listing, anonymous-visitor capture with post-login identity merge, Global Privacy Control — alongside a public DSR intake, email OTP sign-in and per-tenant isolation throughout.
 
----
+`25 backend modules` &nbsp;·&nbsp; `7 jurisdictions schema-drafted` &nbsp;·&nbsp; `~900 passing tests`
 
-### 🚀 Featured Projects
+<sub>FastAPI · Next.js 14 · TypeScript · PostgreSQL 16 · SQLAlchemy 2 · Celery · Redis · Docker</sub>
 
-#### **PurpleCop (GRC Tool)**
+### [AI Policy Builder](https://aipolicy.at0k.com) — AI-generated compliance policies, end to end
 
-A robust Governance, Risk, and Compliance platform built with Laravel, React.js, MySQL, and Inertia.js. Features include policy automation, risk management, compliance tracking, and secure document versioning.
+Multi-tenant SaaS that generates compliance policies with AI, then maps them to framework controls, runs gap analysis, and produces evidence requirements.
 
-#### **UpskillFinder (Android App)**
+Async generation pipeline with job polling, per-plan token budgets, per-org rate limiting, bring-your-own-key providers through LiteLLM with encrypted key storage, and PDF/Markdown export. Policies are drafted in a real-time collaborative editor — a Tiptap core over a Hocuspocus server teams host themselves — gated by a separately deployed licensing service issuing Ed25519-signed license JWTs with heartbeat reporting and revocation.
 
-Dynamic Flutter-based Android application with authentication system and admin dashboard for skill-based learning.
+Auth on AWS Cognito, Stripe subscription billing, self-hosted on GCP behind Nginx with Let's Encrypt and Cloudflare.
 
-#### **Courier Management System**
+`4 frameworks` &nbsp;·&nbsp; `212 controls catalogued` &nbsp;·&nbsp; `24 canonical policies`
 
-Blockchain-based logistics solution developed with Python Flask for secure and transparent courier tracking.
+<sub>FastAPI · React · TypeScript · Celery · MySQL · Redis · Cognito · LiteLLM · Tiptap · Hocuspocus · Stripe</sub>
 
 ---
 
-### 🛠️ Technical Skills
+## Work you cannot sign into
 
-**Backend Development**
+### PurpleCop — multi-tenant enterprise GRC & cybersecurity platform
 
-- Laravel, Node.js, Nest.js, Flask, PHP, Python
+Technical lead and core developer on a 10-module GRC platform. Shipped policy automation, risk register, TPRM, DPDP compliance, LMS, trust center, document management, compliance scoring and audit management — plus continuous compliance monitoring that pulls configuration from AWS, GCP, Salesforce, Zoho and HRMS platforms to evaluate controls.
 
-**Frontend Development**
+`10 modules` &nbsp;·&nbsp; `5 cloud integrations`
 
-- React.js, Next.js, Redux, TypeScript, JavaScript
-- ChakraUI, Bootstrap, Tailwind CSS, HTML5, CSS3
+<sub>Laravel · React · PostgreSQL · Docker · CI/CD</sub>
 
-**Mobile Development**
+### Commercial LMS platforms
 
-- Flutter (Android App Development)
+Customer-facing learning platforms covering course management, student enrollment, authentication, payment workflows, progress tracking, assessments and certification.
 
-**DevOps & Infrastructure**
-
-- Ubuntu Server Setup, Docker, Nginx, Apache, SSL Configuration
-- CI/CD, Server Management
-
-**Databases**
-
-- MySQL, MongoDB, PostgreSQL, Firebase, SQLite
-
-**Tools & Technologies**
-
-- Git, Postman, GraphQL, Axios, Zod, Ajax, Inertia.js
+<sub>Laravel · React · MySQL · Payments</sub>
 
 ---
 
-### 🎓 Education
+## What survives a change of stack
 
-**B.Tech in Information Technology**  
-Anna University, Tamil Nadu, India | 2019
-
----
-
-### 🌟 Core Competencies
-
-- ✅ Full-stack application development and architecture
-- ✅ Team leadership and mentoring
-- ✅ DevOps and server infrastructure management
-- ✅ Security-first development approach
-- ✅ Agile methodologies and project management
-- ✅ Client communication and requirement analysis
+| | |
+| --- | --- |
+| **GRC & compliance** | Multi-tenant enterprise GRC, cybersecurity platforms, continuous compliance monitoring, compliance scoring |
+| **Frameworks** | GDPR, ISO 27001, SOC 2, DPDP Act 2023, HIPAA, NIST CSF |
+| **Product domains** | Policy automation, consent management, DSR workflows, TPRM, risk register, audit management, trust center, LMS, compliance gap analysis |
+| **AI & automation** | Generative policy drafting, AI-assisted compliance, automated control mapping, LLM integration, multi-provider orchestration |
+| **Architecture** | Multi-tenant SaaS, RBAC & access control, append-only audit trails, event-driven systems, real-time collaboration, Docker-based deployments |
+| **Regulatory translation** | Requirements → technical specifications, framework mapping, control implementation, evidence-based compliance tracking |
 
 ---
 
-### 📊 GitHub Stats
+## Stack
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=At0kSharma&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
-
----
-
-### 💡 Languages & Tools
-
-<p align="left">
-<a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a>
-<a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a>
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a>
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-<a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a>
-<a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a>
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-</p>
+| | |
+| --- | --- |
+| **Backend** | Python, FastAPI, Laravel, Node.js, Flask, PHP |
+| **Frontend** | React.js, Next.js, TypeScript, Redux, Tailwind CSS, ChakraUI |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Firebase, Redis |
+| **DevOps** | Docker, Nginx, Ubuntu Server, SSL/TLS, CI/CD, Proxmox |
 
 ---
 
-<p align="center">
-  <i>💬 Open to collaboration on interesting projects and opportunities!</i>
-</p>
+## Where I've been
+
+| | | |
+| --- | --- | --- |
+| **Apr 2025 – Jul 2026** | Senior Software Engineer | Purplecop Security Pvt. Ltd |
+| **Feb 2023 – Mar 2025** | Senior Web Developer | Froximo Technology Pvt. Ltd |
+| **Nov 2020 – Oct 2022** | Junior Web Developer | Softechpark Pvt. Ltd |
+
+B.Tech in Information Technology — Sona College of Technology, Anna University, 2019
+
+---
+
+## Reach me
+
+[thakuralok99@gmail.com](mailto:thakuralok99@gmail.com) &nbsp;·&nbsp; [+91-9288389180](tel:+919288389180) &nbsp;·&nbsp; [at0k.com](https://at0k.com)
+
+<sub>Everything above is running on infrastructure I set up and maintain myself.</sub>
